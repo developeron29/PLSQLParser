@@ -20,17 +20,16 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
  export CLASSPATH=".:/usr/local/lib/antlr-4.2-complete.jar:$CLASSPATH"
  alias antlr4='java -jar /usr/local/lib/antlr-4.2-complete.jar'
  alias grun='java org.antlr.v4.runtime.misc.TestRig'
+``` 
  
- ```
  
  ## Running
  
  ```
  grun PLSQL plsql_block -gui
- 
  <Your PLSQL Code>
  Example:
  declare
  salary number(6);
- 
+ ^D
  ```
