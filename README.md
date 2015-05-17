@@ -1,5 +1,4 @@
-Antlr-4-PLSQL-Parser---AST-Generator
-====================================
+
 
 # A PLSQL parser built using ANTLR 4 
 
