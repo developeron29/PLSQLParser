@@ -29,10 +29,8 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
  grun PLSQL plsql_block -gui
  <Your PLSQL Code>
  Example:
-  ```
-  declare
-  salary number(6);
-  ```
+ declare
+ salary number(6);
  ^D
  
  ```
