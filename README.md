@@ -19,7 +19,7 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
 
 ```
 
-### Note - Update it to the latest ANTLR, as of when you use it [Reference](http://www.antlr.org/)
+### Note - Update it to the latest ANTLR, as of when you use it ( [Reference](http://www.antlr.org/) )
 
 ```
  export CLASSPATH=".:/usr/local/lib/antlr-4.2-complete.jar:$CLASSPATH"
