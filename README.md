@@ -21,6 +21,8 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
 
 ### Note - Update it to the latest ANTLR, as of when you use it ( [Reference](http://www.antlr.org/) )
 
+## How to run
+
 ```
  export CLASSPATH=".:/usr/local/lib/antlr-4.2-complete.jar:$CLASSPATH"
  alias antlr4='java -jar /usr/local/lib/antlr-4.2-complete.jar'
@@ -40,6 +42,8 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
  ```
 
 This parses and builds the PLSQL tree for you
+
+## Demo
 
 For above example of 
 ```
