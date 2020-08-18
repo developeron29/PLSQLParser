@@ -1,4 +1,4 @@
-// Generated from PLSQL.g4 by ANTLR 4.2
+// Generated from PLSQLParser/PLSQL.g4 by ANTLR 4.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -119,14 +119,14 @@ public class PLSQLLexer extends Lexer {
 		case 2: setChannel(HIDDEN); break;
 		}
 	}
-	private void WS_action(RuleContext _localctx, int actionIndex) {
-		switch (actionIndex) {
-		case 0: setChannel(HIDDEN); break;
-		}
-	}
 	private void SL_COMMENT_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
 		case 1: setChannel(HIDDEN); break;
+		}
+	}
+	private void WS_action(RuleContext _localctx, int actionIndex) {
+		switch (actionIndex) {
+		case 0: setChannel(HIDDEN); break;
 		}
 	}
 
