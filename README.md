@@ -41,7 +41,14 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
 
 This parses and builds the PLSQL tree for you
 
+For above example of 
+```
+declare
+salary number(6);
+```
+Parsed tree would be:
 
+![antlr4_parse_tree_1.png](https://github.com/developeron29/PLSQLParser/raw/master/antlr4_parse_tree_1.png)
 
 The MIT License (MIT)
 
