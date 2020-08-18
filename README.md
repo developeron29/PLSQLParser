@@ -26,14 +26,22 @@ wget http://antlr.org/download/antlr-4.2-complete.jar
  alias antlr4='java -jar /usr/local/lib/antlr-4.2-complete.jar'
  alias grun='java org.antlr.v4.runtime.misc.TestRig'
  
+ git clone https://github.com/developeron29/PLSQLParser
+ cd PLSQLParser
+ antlr4 PLSQL.g4  
+ javac PLSQL*.java
+
  grun PLSQL plsql_block -gui
- <Your PLSQL Code>
- Example:
+ <Enter your PLSQL code now-> For example:
  declare
  salary number(6);
- ^D
+ ^D [Cmd-D for Mac]
  
  ```
+
+This parses and builds the PLSQL tree for you
+
+
 
 The MIT License (MIT)
 
