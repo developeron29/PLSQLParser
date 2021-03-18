@@ -15,7 +15,7 @@ To install ANTLR 4, if you don't have it already
 ```
 
 cd /usr/local/lib
-wget http://antlr.org/download/antlr-4.2-complete.jar
+sudo wget http://antlr.org/download/antlr-4.2-complete.jar
 
 ```
 
